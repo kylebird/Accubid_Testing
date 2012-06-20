@@ -89,3 +89,5 @@ More about developing:
 
 
 a small change to track in git..
+
+this project is killing me. i still cant connect to the online repository
