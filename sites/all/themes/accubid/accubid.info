@@ -1,0 +1,23 @@
+name = Accubid
+description = Accubid Theme
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = styles/accubid.css
+stylesheets[all][] = styles/forms.css
+
+regions[header] = Header
+regions[top_login_bar] = Top Login Bar
+regions[sidebar_first] = Right sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+features[] = logo
+features[] = name
+features[] = main_menu
+features[] = slogan
+features[] = favicon
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = secondary_menu

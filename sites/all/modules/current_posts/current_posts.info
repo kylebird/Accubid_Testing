@@ -1,0 +1,4 @@
+name = Current posts
+description = A block module that lists links to recent posts.
+
+core = 7.x

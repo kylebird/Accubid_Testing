@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+	p{line-height: 150%;}
+	ul{margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
+	ol{margin: 0px 0px 0px 12px; padding: 0px 0px 0px 0px;}
+		ol li{margin: 12px 12px 12px 12px;}
+	li{margin: 0px 0px 0px 18px;}
+	h1, h2, h3, h4, h5, h6{margin: 0px 0px 12px 0px; color: #606060; padding: 0px 0px 0px 0px; line-height: 100%; text-transform: uppercase;}
+	img{border: 0px;}
+
+
+.head_wrapped{
+	width: 100%;
+	height: 163px;
+	background: url('../images/accubid_background.gif');
+	}
+
+	#header{
+		margin: auto;
+		max-width: 940px;
+		height: 100%;
+		position:  relative;
+		display: block;
+		color: #fff;
+	}
+	
+	
+		#header ul li a{text-decoration: none;}
+	
+		/*** BRANDING ***/
+			.logo{
+				width: 220px;
+				height: 40px;
+				margin: 0px 0px 0px 0px;
+				position: absolute;
+				top: 40px;
+				left: 0px;
+				}
+				.logo a{
+					width: 220px;
+					height: 40px;
+					display: block;	
+					background: transparent url(../logo.png) no-repeat;
+					text-indent: -9999px;
+					}
+					
+			.slogan{
+				width: 300px;
+				height: 50px;
+				background: url(../images/slogan.png) no-repeat;
+				text-indent: -9999px;
+				position: relative;
+				top: 40px;
+				left: 240px;
+				}
+	
+			#header .menu{
+				display: block;
+				position:  relative;
+				top: 70px;
+				width: 620px;
+				height: 29px;
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 90%;
+				list-style-type: none;
+				margin: 0px 0px 0px 0px;
+				padding: 0px 0px 0px 0px;
+			}
+			#header .menu a{color: #fff; text-decoration: none;}
+				#header .menu li{
+					float: left;
+					margin: 0px 20px 0px 0px;
+					padding: 0px 0px 0px 0px;
+					position: relative;
+					display: block;
+				}
+				
+				/****** hidden Menu ******/
+					#header .menu li ul{
+						display: none;
+					}
+					
+					#header .menu li ul li{
+						position:  relative;
+						display: block;
+						float: none;
+						margin: 2px;
+						padding: 2px;
+					}
+					
+					
+		.admin{
+			width: 280px;
+			height: 123px;
+			float: right;
+			position: absolute;
+			top: 34px;
+			right: 0px;
+			dipslay: block;
+			padding: 10px 10px 10px 10px;
+			background: url('../images/admin_background.png') repeat-x;
+			}
+			.admin .search-block input[type=submit]{
+				background: url('../images/search_btn.png') no-repeat;
+				}
+					
+			#header .menu-courtesy, .user-menu{
+				margin: 0px 0px 0px 0px;
+				padding: 0px 0px 0px 0px;
+				text-transform: uppercase;
+				height: 20px;
+				position: relative;
+				list-style-type: none;
+				}
+				#header .menu-courtesy{top: 12px;}
+				#header .user-menu{top: 35px;}
+				.menu-courtesy li, .user-menu li{
+					margin: 0px 18px 0px 0px;
+					padding: 0px 0px 0px 0px;
+					float: left;
+					}
+				.menu-courtesy li a{color: #ccc; font-size: 70%;}
+				.user-menu li a{color: #fff; font-size: 70%; font-weight: bold;}
+
+			#login{
+				border: #ddd 1px solid;
+				background: #fff;
+				padding: 8px 8px 8px 8px;
+				color: #000;
+				width: 220px;
+				height: 240px;
+				position: absolute;
+				z-index: 100;
+				display: none;
+				}
+			#login input[type=submit]{
+				background: url('../images/signin_btn.png') no-repeat;
+				}
+				#login form{
+					border: #000 1px solid;
+					}
+				#login ul{
+					border: #000 1px solid;
+					float: right;
+					}
+#wrapper{
+	width: 940px;
+	height: 100%;
+	margin: auto;
+	padding: 40px 0px 0px 0px;
+	position:  relative;
+	display: block;
+	border: #000 1px solid;
+}
+
+	#content{
+		max-width: 620px;
+	}
+	
+	
+	#sidebar{
+		border: #000 1px solid;
+		width: 300px;
+		float: right;
+	}
+
+#footer{
+	margin: auto;
+	clear: both;
+}
+
+.usericon, .passicon {
+float: left;
+width: 180px;
+padding-left: 36px; /** create space for small 24px x 24px icon **/
+height: 24px;
+}
+	.usericon, .passicon {
+	float: left;
+	width: 180px;
+	padding-left: 36px; /** create space for small 24px x 24px icon **/
+	height: 24px;
+	}
